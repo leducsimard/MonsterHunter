@@ -22,6 +22,8 @@ namespace monsterhunterAPI
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             Database.SetInitializer<ApplicationDbContext>(new DbInitializer());
+            ApplicationDbContext db = new ApplicationDbContext();
+            db.Database.Initialize(true);
         }
     }
 }

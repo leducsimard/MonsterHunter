@@ -13,6 +13,7 @@ namespace monsterhunterAPI.Controllers
     {
         private ArmorService armorService = new ArmorService();
 
+        [AllowAnonymous]
         public string Get(int id)
         {
             return "pouet";

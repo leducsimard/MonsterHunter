@@ -255,9 +255,14 @@
     <Compile Include="Migrations\201802242316425_version1.Designer.cs">
       <DependentUpon>201802242316425_version1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802270307422_version2.cs" />
+    <Compile Include="Migrations\201802270307422_version2.Designer.cs">
+      <DependentUpon>201802270307422_version2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ItemProperty\Sharpness.cs" />
     <Compile Include="Models\Items\Armor.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Items\Weapon.cs" />
@@ -344,6 +349,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201802242316425_version1.resx">
       <DependentUpon>201802242316425_version1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802270307422_version2.resx">
+      <DependentUpon>201802270307422_version2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
