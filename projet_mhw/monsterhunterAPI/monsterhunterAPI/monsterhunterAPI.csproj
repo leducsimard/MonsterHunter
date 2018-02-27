@@ -251,20 +251,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201802242316425_version1.cs" />
-    <Compile Include="Migrations\201802242316425_version1.Designer.cs">
-      <DependentUpon>201802242316425_version1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201802270307422_version2.cs" />
-    <Compile Include="Migrations\201802270307422_version2.Designer.cs">
-      <DependentUpon>201802270307422_version2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ItemProperty\ArmorSet.cs" />
+    <Compile Include="Models\ItemProperty\DecorationSlot.cs" />
     <Compile Include="Models\ItemProperty\Sharpness.cs" />
+    <Compile Include="Models\ItemProperty\Skill.cs" />
+    <Compile Include="Models\ItemProperty\DecorationSlotTable.cs" />
+    <Compile Include="Models\ItemProperty\WeaponType.cs" />
     <Compile Include="Models\Items\Armor.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Items\Charm.cs" />
+    <Compile Include="Models\Items\Decoration.cs" />
     <Compile Include="Models\Items\Weapon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
@@ -345,14 +344,6 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201802242316425_version1.resx">
-      <DependentUpon>201802242316425_version1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201802270307422_version2.resx">
-      <DependentUpon>201802270307422_version2.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
