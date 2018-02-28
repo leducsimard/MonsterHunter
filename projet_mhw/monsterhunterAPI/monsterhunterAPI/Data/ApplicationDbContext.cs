@@ -24,7 +24,7 @@ namespace monsterhunterAPI.Data
         public virtual DbSet<Skill> Skills { get; set; }
         public virtual DbSet<ArmorSet> ArmorSets { get; set; }
         public virtual DbSet<WeaponType> WeaponType { get; set; }
-        public virtual DbSet<DecorationSlotTable> DecorationSlotTalbes { get; set; }
+        public virtual DbSet<DecorationSlotTable> DecorationSlotTables { get; set; }
         public virtual DbSet<DecorationSlot> DecorationSlots { get; set; }
         #endregion
 
@@ -45,8 +45,12 @@ namespace monsterhunterAPI.Data
             //Update model for code first
             prepareArmor(modelBuilder);
             prepareWeapon(modelBuilder);
+            prepareCharm(modelBuilder);
+            prepareDecoration(modelBuilder);
             prepareSharpness(modelBuilder);
             prepareSkill(modelBuilder);
+            prepareDecorationSlot(modelBuilder);
+            prepareDecorationSlotTable(modelBuilder);
         }
 
         #region builderItems
@@ -70,6 +74,8 @@ namespace monsterhunterAPI.Data
             entity.HasRequired(c => c.Sharpness);
 
             entity.HasRequired(c => c.WeaponType);
+
+            entity.HasRequired(c => c.DecorationSlotTable);
         }
         
         private void prepareCharm(DbModelBuilder modelBuilder)

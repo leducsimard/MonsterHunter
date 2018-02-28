@@ -12,5 +12,6 @@ namespace monsterhunterAPI.Models
         public string Name { get; set; }
         public virtual Sharpness Sharpness { get; set; }
         public virtual WeaponType WeaponType { get; set; }
+        public virtual DecorationSlotTable DecorationSlotTable { get; set; }
     }
 }

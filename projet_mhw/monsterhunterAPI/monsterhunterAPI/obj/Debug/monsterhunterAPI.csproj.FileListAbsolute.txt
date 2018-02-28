@@ -184,11 +184,8 @@ C:\Users\harry\Desktop\repo\MonsterHunter\projet_mhw\monsterhunterAPI\monsterhun
 C:\Users\harry\Desktop\repo\MonsterHunter\projet_mhw\monsterhunterAPI\monsterhunterAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\harry\Desktop\repo\MonsterHunter\projet_mhw\monsterhunterAPI\monsterhunterAPI\bin\System.Web.Http.Owin.xml
 C:\Users\harry\Desktop\repo\MonsterHunter\projet_mhw\monsterhunterAPI\monsterhunterAPI\obj\Debug\monsterhunterAPI.csprojResolveAssemblyReference.cache
-C:\Users\harry\Desktop\repo\MonsterHunter\projet_mhw\monsterhunterAPI\monsterhunterAPI\obj\Debug\monsterhunterAPI.Migrations.version1.resources
-C:\Users\harry\Desktop\repo\MonsterHunter\projet_mhw\monsterhunterAPI\monsterhunterAPI\obj\Debug\monsterhunterAPI.csproj.GenerateResource.Cache
 C:\Users\harry\Desktop\repo\MonsterHunter\projet_mhw\monsterhunterAPI\monsterhunterAPI\obj\Debug\monsterhunterAPI.dll
 C:\Users\harry\Desktop\repo\MonsterHunter\projet_mhw\monsterhunterAPI\monsterhunterAPI\obj\Debug\monsterhunterAPI.pdb
-C:\Users\harry\Desktop\repo\MonsterHunter\projet_mhw\monsterhunterAPI\monsterhunterAPI\obj\Debug\monsterhunterAPI.Migrations.version2.resources
 C:\Users\1481479\Desktop\repoPerso\MonsterHunter\projet_mhw\monsterhunterAPI\monsterhunterAPI\bin\ApplicationInsights.config
 C:\Users\1481479\Desktop\repoPerso\MonsterHunter\projet_mhw\monsterhunterAPI\monsterhunterAPI\bin\roslyn\csc.exe
 C:\Users\1481479\Desktop\repoPerso\MonsterHunter\projet_mhw\monsterhunterAPI\monsterhunterAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll

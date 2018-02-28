@@ -248,6 +248,8 @@
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Data\ApplicationDbContext.cs" />
     <Compile Include="Data\DbInitializer.cs" />
+    <Compile Include="DTO\DecorationSlotTableDTO.cs" />
+    <Compile Include="DTO\SharpnessDTO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

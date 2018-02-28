@@ -13,6 +13,7 @@ namespace monsterhunterAPI.Services
 
         public ArmorService()
         {
+            Context.Weapons.FirstOrDefault();
         }
     }
 }
