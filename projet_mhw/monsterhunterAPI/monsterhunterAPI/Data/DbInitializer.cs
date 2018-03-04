@@ -4,6 +4,7 @@ using monsterhunterAPI.Models.ItemProperty;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Web;
 
@@ -13,15 +14,14 @@ namespace monsterhunterAPI.Data
     {
         protected override void Seed(ApplicationDbContext context)
         {
-            var dtoSharpness = new SharpnessCreationDTO
+            //Start by initializating Sharpnesses
+            var sqlFileSharpnesses = Directory.GetFiles(AppDomain.CurrentDomain.BaseDirectory, "Sharpnesses.sql").FirstOrDefault().ToString();
+            if (sqlFileSharpnesses != null)
             {
-                RedSharpness = 1,
-                OrangeSharpness = 2,
-                YellowSharpness = 3,
-                GreenSharpness = 4,
-                BlueSharpness = 5,
-                WhiteSharpness = 6
-            };
+                context.Database.ExecuteSqlCommand(File.ReadAllText(sqlFileSharpnesses));
+                context.SaveChanges();
+            }
+            var Sharpnesses = context.Sharpnesses.ToList();
 
             var dtoDecorationSlotTable = new DecorationSlotTableCreationDTO
             {
