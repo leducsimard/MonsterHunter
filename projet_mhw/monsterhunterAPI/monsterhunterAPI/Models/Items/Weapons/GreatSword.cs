@@ -13,5 +13,7 @@ namespace monsterhunterAPI.Models.Items.Weapons
         public Sharpness Sharpness { get; set; }
         [DefaultValue(0)]
         public int Affinity { get; set; }
+        [DefaultValue(0)]
+        public int Defense { get; set; }
     }
 }

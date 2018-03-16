@@ -593,16 +593,527 @@ namespace monsterhunterAPI.Data
                 Rarity = "4",
                 Sharpness = sharpnessesGreatSwords[34]
             });
-        }
-
-        private DecorationSlotTable returnDecorationSlotTable(DecorationSlotTableCreationDTO decorationSlotTableCreationDTO)
-        {
-            var decorationSlotTable = new DecorationSlotTable();
-            decorationSlotTable.DecorationSlot_1 = decorationSlotTableCreationDTO.decoration_1_level;
-            decorationSlotTable.DecorationSlot_2 = decorationSlotTableCreationDTO.decoration_2_level;
-            decorationSlotTable.DecorationSlot_3 = decorationSlotTableCreationDTO.decoration_3_level;
-
-            return decorationSlotTable;
+            var element35 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 420,
+                Name = "Poison"
+            });
+            var decoration35 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 1,
+                DecorationSlot_2 = 1
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 720,
+                DecorationSlotTable = decoration35,
+                Element = element35,
+                Name = "Datura Blaze I",
+                Rarity = "5",
+                Sharpness = sharpnessesGreatSwords[35]
+            });
+            var element36 = context.Elements.Add(new Element {
+                Active = true,
+                Attack = 480,
+                Name = "Poison"
+            });
+            var decoration36 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 1,
+                DecorationSlot_2 = 1
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 768,
+                DecorationSlotTable = decoration36,
+                Element = element36,
+                Name = "Datura Blaze II",
+                Rarity = "6",
+                Sharpness = sharpnessesGreatSwords[36]
+            });
+            var element37 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 540,
+                Name = "Poison"
+            });
+            var decoration37 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 2,
+                DecorationSlot_2 = 1
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 816,
+                DecorationSlotTable = decoration37,
+                Element = element37,
+                Name = "Datura Blaze III",
+                Rarity = "6",
+                Sharpness = sharpnessesGreatSwords[37]
+            });
+            var element38 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 120,
+                Name = "Fire"
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 10,
+                Attack = 672,
+                DecorationSlotTable = null,
+                Element = element38,
+                Name = "Flame Blade I",
+                Rarity = "4",
+                Sharpness = sharpnessesGreatSwords[38]
+            });
+            var element39 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 150,
+                Name = "Fire"
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 10,
+                Attack = 720,
+                DecorationSlotTable = null,
+                Element = element39,
+                Name = "Flame Blade II",
+                Rarity = "5",
+                Sharpness = sharpnessesGreatSwords[39]
+            });
+            var element40 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 180,
+                Name = "Fire"
+            });
+            var decoration40 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 1
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 15,
+                Attack = 768,
+                DecorationSlotTable = decoration40,
+                Element = element40,
+                Name = "Red Wing",
+                Rarity = "6",
+                Sharpness = sharpnessesGreatSwords[40]
+            });
+            var element41 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 210,
+                Name = "Fire"
+            });
+            var decoration41 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 1
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 15,
+                Attack = 816,
+                DecorationSlotTable = decoration41,
+                Element = element41,
+                Name = "Blue Wing",
+                Rarity = "7",
+                Sharpness = sharpnessesGreatSwords[41]
+            });
+            var element42 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 240,
+                Name = "Fire"
+            });
+            var decoration42 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 1
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 15,
+                Attack = 912,
+                DecorationSlotTable = decoration42,
+                Element = element42,
+                Name = "Rathalos Glinsword",
+                Rarity = "8",
+                Sharpness = sharpnessesGreatSwords[42]
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 480,
+                DecorationSlotTable = null,
+                Element = null,
+                Name = "Bone Blade I",
+                Rarity = "1",
+                Sharpness = sharpnessesGreatSwords[43]
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 528,
+                DecorationSlotTable = null,
+                Element = null,
+                Name = "Bone Blade II",
+                Rarity = "1",
+                Sharpness = sharpnessesGreatSwords[44]
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 576,
+                DecorationSlotTable = null,
+                Element = null,
+                Name = "Bone Blade III",
+                Rarity = "2",
+                Sharpness = sharpnessesGreatSwords[45]
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 672,
+                DecorationSlotTable = null,
+                Element = null,
+                Name = "Bone Slasher I",
+                Rarity = "3",
+                Sharpness = sharpnessesGreatSwords[46]
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 720,
+                DecorationSlotTable = null,
+                Element = null,
+                Name = "Bone Slasher II",
+                Rarity = "4",
+                Sharpness = sharpnessesGreatSwords[47]
+            });
+            var decoration48 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 2
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 768,
+                DecorationSlotTable = decoration48,
+                Element = null,
+                Name = "Bone Slasher III",
+                Rarity = "5",
+                Sharpness = sharpnessesGreatSwords[48]
+            });
+            var element49 = context.Elements.Add(new Element
+            {
+                Active = false,
+                Attack = 240,
+                Name = "Ice"
+            });
+            var decoration49 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 2
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Defense = 10,
+                Attack = 816,
+                DecorationSlotTable = decoration49,
+                Element = element49,
+                Name = "Giant Jawblade I",
+                Rarity = "6",
+                Sharpness = sharpnessesGreatSwords[49]
+            });
+            var element50 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 300,
+                Name = "Ice"
+            });
+            var decoration50 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 3
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 912,
+                DecorationSlotTable = decoration50,
+                Defense = 10,
+                Element = element50,
+                Name = "Giant Jawblade II",
+                Rarity = "6",
+                Sharpness = sharpnessesGreatSwords[50]
+            });
+            var element51 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 300,
+                Name = "Dragon"
+            });
+            var decoration51 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 2
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 912,
+                DecorationSlotTable = decoration51,
+                Defense = 0,
+                Element = element51,
+                Name = "Hazal Kys",
+                Rarity = "7",
+                Sharpness = sharpnessesGreatSwords[51]
+            });
+            var element52 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 300,
+                Name = "Dragon"
+            });
+            var decoration52 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 2
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 960,
+                DecorationSlotTable = decoration52,
+                Defense = 0,
+                Element = element52,
+                Name = "Leviathan's Fury",
+                Rarity = "8",
+                Sharpness = sharpnessesGreatSwords[52]
+            });
+            var element53 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 240,
+                Name = "Fire"
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = -30,
+                Attack = 720,
+                DecorationSlotTable = null,
+                Defense = 0,
+                Element = element53,
+                Name = "Flammenzahn",
+                Rarity = "3",
+                Sharpness = sharpnessesGreatSwords[53]
+            });
+            var element54 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 300,
+                Name = "Fire"
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = -30,
+                Attack = 864,
+                DecorationSlotTable = null,
+                Defense = 0,
+                Element = element54,
+                Name = "Flammenzahn+",
+                Rarity = "5",
+                Sharpness = sharpnessesGreatSwords[54]
+            });
+            var element55 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 360,
+                Name = "Fire"
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = -30,
+                Attack = 1008,
+                DecorationSlotTable = null,
+                Defense = 0,
+                Element = element55,
+                Name = "Gnashing Flammenzahn",
+                Rarity = "7",
+                Sharpness = sharpnessesGreatSwords[55]
+            });
+            var element56 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 120,
+                Name = "Water"
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 576,
+                DecorationSlotTable = null,
+                Defense = 0,
+                Element = element56,
+                Name = "Aqua Slasher I",
+                Rarity = "2",
+                Sharpness = sharpnessesGreatSwords[56]
+            });
+            var element57 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 150,
+                Name = "Water"
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 624,
+                DecorationSlotTable = null,
+                Defense = 0,
+                Element = element57,
+                Name = "Aqua Slasher II",
+                Rarity = "3",
+                Sharpness = sharpnessesGreatSwords[57]
+            });
+            var element58 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 180,
+                Name = "Water"
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 672,
+                DecorationSlotTable = null,
+                Defense = 0,
+                Element = element58,
+                Name = "Aqua Slasher III",
+                Rarity = "4",
+                Sharpness = sharpnessesGreatSwords[58]
+            });
+            var element59 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 240,
+                Name = "Water"
+            });
+            var decoration59 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 2
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 768,
+                DecorationSlotTable = decoration59,
+                Defense = 0,
+                Element = element59,
+                Name = "Water Golum I",
+                Rarity = "5",
+                Sharpness = sharpnessesGreatSwords[59]
+            });
+            var element60 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 270,
+                Name = "Water"
+            });
+            var decoration60 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 2
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 816,
+                DecorationSlotTable = decoration60,
+                Defense = 0,
+                Element = element60,
+                Name = "Water Golum II",
+                Rarity = "6",
+                Sharpness = sharpnessesGreatSwords[60]
+            });
+            var element61 = context.Elements.Add(new Element
+            {
+                Active = true,
+                Attack = 300,
+                Name = "Water"
+            });
+            var decoration61 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 2
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = 0,
+                Attack = 912,
+                DecorationSlotTable = decoration61,
+                Defense = 0,
+                Element = element61,
+                Name = "Water Golum III",
+                Rarity = "6",
+                Sharpness = sharpnessesGreatSwords[61]
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = -20,
+                Attack = 624,
+                DecorationSlotTable = null,
+                Defense = 10,
+                Element = null,
+                Name = "Carapace Buster I",
+                Rarity = "2",
+                Sharpness = sharpnessesGreatSwords[62]
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = -20,
+                Attack = 672,
+                DecorationSlotTable = null,
+                Defense = 10,
+                Element = null,
+                Name = "Carapace Buster II",
+                Rarity = "3",
+                Sharpness = sharpnessesGreatSwords[63]
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = -20,
+                Attack = 720,
+                DecorationSlotTable = null,
+                Defense = 10,
+                Element = null,
+                Name = "Carapace Buster III",
+                Rarity = "4",
+                Sharpness = sharpnessesGreatSwords[64]
+            });
+            var element65 = context.Elements.Add(new Element
+            {
+                Active = false,
+                Attack = 270,
+                Name = "Paralysis"
+            });
+            var decoration65 = context.DecorationSlotTables.Add(new DecorationSlotTable
+            {
+                DecorationSlot_1 = 1
+            });
+            context.GreatSwords.Add(new GreatSword
+            {
+                Affinity = -20,
+                Attack = 816,
+                DecorationSlotTable = decoration65,
+                Defense = 15,
+                Element = element65,
+                Name = "Barroth Shredder I",
+                Rarity = "5",
+                Sharpness = sharpnessesGreatSwords[65]
+            });
         }
     }
 }
