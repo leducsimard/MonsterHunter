@@ -258,6 +258,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ItemProperty\ArmorSet.cs" />
     <Compile Include="Models\ItemProperty\Element.cs" />
+    <Compile Include="Models\ItemProperty\ElementType.cs" />
     <Compile Include="Models\ItemProperty\Sharpness.cs" />
     <Compile Include="Models\ItemProperty\Skill.cs" />
     <Compile Include="Models\ItemProperty\DecorationSlotTable.cs" />
